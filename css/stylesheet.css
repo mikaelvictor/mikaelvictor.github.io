@@ -7,16 +7,28 @@
     margin-bottom:0px;
     margin-top:0px;
 }
-.navigate{
+nav{
     display:block;
     text-align:center;
     padding-left:10px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color:indigo;
 }
 .headersearch{
     text-align:right;
     padding-left:100px;
 }
-.text{
+article{
     text-align:left;
 }
 .footersearch{
