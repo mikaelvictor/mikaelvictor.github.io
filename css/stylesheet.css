@@ -31,6 +31,68 @@ a:active{
 article{
     text-align:left;
 }
+#homesprite{
+    background: url('../images/homesprite.png') no-repeat 0 0;
+    width: 88px;
+    height: 31px;
+    animation: HomeSpriteAnimation 1s steps(4) infinite;
+    display: block;
+}
+@keyframes HomeSpriteAnimation {
+    from{background-position-x: 0px;}
+    to{background-position-x: -352px;}
+}
 .footersearch{
     text-align:right;
+}
+.transparent{
+    width: 50px;
+    height: 56px;
+}
+.facebook {
+	background: url('../images/social-icons.png') no-repeat -1px -1px;
+	width: 42px;
+	height: 76px;
+    display: block;
+    position: absolute;
+    
+}
+.facebook:hover{
+    background: url('../images/social-icons.png') no-repeat -1px -241px;
+	width: 42px;
+    height: 76px;
+    display: block;
+    position: absolute;
+}
+.twitter {
+    background: url('../images/social-icons.png') no-repeat -220px -4px;
+	width: 84px;
+	height: 70px;
+    display: block;
+    position: absolute;
+    left: 52px;
+}
+.twitter:hover{
+    background: url('../images/social-icons.png') no-repeat -220px -244px;
+	width: 84px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    left: 52px;
+}
+.linkedin {
+	background: url('../images/social-icons.png') no-repeat -464px -1px;
+	width: 76px;
+	height: 76px;
+    display: block;
+    position: absolute;
+    left: 136px;
+}
+.linkedin:hover{
+    background: url('../images/social-icons.png') no-repeat -464px -241px;
+	width: 76px;
+    height: 76px;
+    display: block;
+    position: absolute;
+    left: 136px;
 }
